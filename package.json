@@ -1,0 +1,37 @@
+{
+  "name": "swagger-editor-open",
+  "version": "1.0.0",
+  "description": "Open Swagger Editor",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "license": "MIT",
+  "keywords": [
+    "swagger",
+    "editor",
+    "open",
+    "cli"
+  ],
+  "author": "Olegs Gabrusjonoks <olegs.gabrusjonoks@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/trioletas/swagger-editor-open.git"
+  },
+  "scripts": {
+    "start": "node lib/index.js",
+    "lint": "node node_modules/eslint/bin/eslint.js lib/**",
+    "prepublish": "npm run lint",
+    "preversion": "npm run lint"
+  },
+  "dependencies": {
+    "opn": "4.0.1",
+    "swagger-editor-serve": "1.0.0",
+    "swagger-editor": "2.9.8"
+  },
+  "bin": {
+    "swagger-editor-open": "bin/open"
+  },
+  "devDependencies": {
+    "eslint": "2.3.0",
+    "eslint-config-airbnb": "6.1.0"
+  }
+}
