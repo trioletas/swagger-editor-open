@@ -1,6 +1,6 @@
 {
   "name": "swagger-editor-open",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Open Swagger Editor",
   "main": "lib/index.js",
   "preferGlobal": true,
