@@ -24,7 +24,7 @@
   },
   "dependencies": {
     "opn": "4.0.1",
-    "swagger-editor-serve": "1.0.2",
+    "swagger-editor-serve": "1.0.5",
     "swagger-editor": "2.9.8"
   },
   "bin": {
